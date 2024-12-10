@@ -21,7 +21,7 @@ application = get_wsgi_application()
 application = WhiteNoise(application, root=os.path.join(settings.BASE_DIR, 'staticfiles'))
 
 # Add the React build directory to WhiteNoise
-application.add_files(os.path.join(settings.BASE_DIR, 'dist'), prefix='')  # Serve React's index.html and other root files
+#application.add_files(os.path.join(settings.BASE_DIR, 'dist'), prefix='')  # Serve React's index.html and other root files
 
 # Optionally, add React's static assets
 application.add_files(os.path.join(settings.BASE_DIR, 'dist/assets'), prefix='assets/')
