@@ -31,6 +31,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['django-djreact-app-d5af3d4e3559.herokuapp.com']
 ALLOWED_HOSTS = ['www.recychbsadmin.in']
 ALLOWED_HOSTS = ['www.app.recychbs.in']
+ALLOWED_HOSTS = ['https://recychbs-backend.onrender.com']
 
 # Application definition
 
@@ -175,6 +176,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://hbs-admin-afcea2f2324b.herokuapp.com',
     'https://new-hbs-admin-82beda5bc10a.herokuapp.com',
     'chrome-extension://eejfoncpjfgmeleakejdcanedmefagga',
+    'https://recychbs-backend.onrender.com',
 
     # 'https://demo-djreact-recyc-app-ee540343796a.herokuapp.com'
 
@@ -187,7 +189,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',  # React app's URL
     'http://localhost:5174',
     'https://www.app.recychbs.in',
-    'https://www.recychbsadmin.in/',  # React app's URL
+    'https://www.recychbsadmin.in',  # React app's URL
     'https://adminapp-46edb27550db.herokuapp.com',  # React app's URL
     'https://hsb-admin-ui.onrender.com',
     'https://hsb-ui.onrender.com',
@@ -243,6 +245,6 @@ PASSWORD_RESET_TIMEOUT_DAYS = 1  # Password reset token will be valid for 1 day
 
 
 # settings.py (Django)
-FRONTEND_URL = "https://www.app.recychbs.in/"  # Set this to your actual frontend URL
+FRONTEND_URL = "https://www.app.recychbs.in"  # Set this to your actual frontend URL
 
 GDAL_LIBRARY_PATH = os.path.join('C:\\OSGeo4W\\bin\\adal.dll')  # Adjust 'gdal304.dll' as necessary
